@@ -77,12 +77,12 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'assets/imgs/ecfiomediasmall-dark.png');
+            logo.attr('src', '../assets/imgs/ecfiomediasmall-dark.png');
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'assets/imgs/ecfiomediasmall.png');
+            logo.attr('src', '../assets/imgs/ecfiomediasmall.png');
         }
     });
 
